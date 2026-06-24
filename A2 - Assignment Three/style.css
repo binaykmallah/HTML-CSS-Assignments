@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+header h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+}
+
+section {
+  width: 82%;
+  height: 40%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 15%;
+  height: 100%;
+  margin: 0px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 23px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 140, 66, 0.08) 0%,
+    rgba(255, 138, 66, 0.126) 30%,
+    rgb(25, 25, 25) 100%
+  );
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#card1 {
+  border: 1px solid rgba(255, 140, 0, 0.5);
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);
+}
+
+.card img {
+  width: 90px;
+}
+
+#card4 img {
+  width: 120px;
+}
+
+#card3 img {
+  width: 107px;
+}
+
+#card2 img {
+  width: 120px;
+}
+
+.topText {
+  color: rgba(186, 93, 23);
+  border: 1px solid rgba(186, 93, 23);
+  border-radius: 10px;
+  display: flex;
+  gap: 2px;
+  position: absolute;
+  background-color: rgba(255, 245, 240, 0.114);
+  width: fit-content;
+  padding: 1px 3px;
+  top: 5%;
+  left: 7%;
+  font-size: 12px;
+}
+
+.cardinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardinfo h4 {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+}
+.cardinfo p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.cardinfo h5 {
+  font-size: 17px;
+  color: rgba(186, 93, 23);
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #ff8c42;
+  padding-top: 8px;
+}
+
+
+.bottom  {
+  width: 53%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  background-image: url(./bgBottomImg.png);
+  background-size: cover;
+border-radius: 10px;
+color: white;
+ 
+    box-shadow: 0 0 2px rgba(255, 140, 0, 0.5);
+    
+
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomImg img{
+  width: 200px;
+}
+.bottomInfo{
+  width: 39%;
+  line-height: 20px;
+}
+
+.bottomInfo p{
+
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  
+}
+
+.bottomInfo h6{
+  font-size: 5px;
+  letter-spacing: 2px;
+  color: rgba(186, 93, 23);
+}
+
+.bottomInfo h4{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+button{
+  border-radius: 25px;
+  padding: 5px 10px;
+  background-color: black;
+  color: rgba(255, 140, 0, 0.947);
+  margin-top: 12px;
+  border: 1px solid rgba(255, 140, 0, 0.941);
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   width: 53%;
+  color: white;
+  height: 10%;
+  border-top: 1px solid rgba(255, 140, 0, 0.5);
+  
+  
+  padding: 10px 25px;
+}
+
+.leftContent p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+
+.centerContent{
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+
+.centerContent a{
+  text-decoration:none;
+  color:#d8d8d8;
+  font-size:10px;
+  font-family:Georgia, serif;
+}
+
+.centerContent .dot{
+  color:#c57a2c;
+  font-size:24px;
+}
+.rightContent{
+ display: flex;
+ justify-content: space-between;
+ column-gap: 10px;
+ font-family:Arial, Helvetica, sans-serif ;
+ 
+}
+
+.rightContent p{
+font-size: 10px;
+}
+.icons{
+  font-size: 10px;
+  color:rgba(255, 140, 0, 0.947) ;
+
+}
+.icons .ri-instagram-line{
+  border-radius: 50%;
+  border: 1px solid rgba(255, 140, 0, 0.947);
+  padding: 3px;
+}
+
+.icons .ri-facebook-fill{
+  border-radius: 50%;
+  border: 1px solid rgba(255, 140, 0, 0.947);
+  padding: 3px;
+}
+
+.icons .ri-twitter-fill{
+  border-radius: 50%;
+  border: 1px solid rgba(255, 140, 0, 0.947);
+  padding: 3px;
+}
+
