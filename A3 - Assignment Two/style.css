@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'main-sec-font';
+  src: url(Xirod.otf)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-y: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  
+
+
+}
+
+nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+nav>img {
+  width: 100px;
+
+}
+
+.nav-center {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-center>a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+ 
+}
+.nav-center>a:hover{
+
+ background-color: #fede7d1e;
+}
+
+.nav-right {
+  color: white;
+  font-size: 25px;
+  
+}
+.nav-right i{
+  cursor: pointer;
+}
+
+.top {
+  width: 75%;
+  height: 78%;
+  background: url(./background-image1.png) top/cover;
+  position: relative;
+  background-position: center 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    border-bottom-left-radius: 40% 80px;
+    border-bottom-right-radius: 50% 80px;
+    z-index: 9;
+
+
+
+}
+
+.hero {
+  color: rgb(255, 255, 255);
+  width: 64%;
+  height: 65%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  line-height: 33px;
+}
+
+.hero>.hero-text-1 {
+  width: 95%;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.hero>.hero-main-text {
+  font-size: 24px;
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-family: 'main-sec-font';
+  font-weight: 100;
+  letter-spacing: 2px;
+  justify-content: center;
+  
+}
+
+.hero>.hero-main-text .title{
+  margin-right: 70px;
+}
+
+.hero>.hero-text-2 {
+  width: 95%;
+
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 5px;
+}
+.hero-image{
+  width: 289px;
+  position: absolute;
+  top: 19%;
+  z-index: 10;
+}
+
+.mint-btn{
+  position: absolute;
+  top: 48%;
+   width: 160px;
+    height: 47px;
+
+    background: #f5d26b;
+    color: #111;
+    border: 2px solid #111;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+z-index: 11;
+    cursor: pointer;
+}
+
+.mint-btn::before{
+    content: "";
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+    width: 20px;
+    height: 40px;
+    border-left: 3px solid #111;
+    border-right: 3px solid #111;
+    transform: rotate(30deg);
+}
+
+.mint-btn::after{
+    content: "";
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    width: 20px;
+    height: 40px;
+    border-left: 3px solid #111;
+    border-right: 3px solid #111;
+    transform: rotate(30deg);
+}
+
+.bottom{
+  top: 67%;
+  position: absolute;
+  background-color: rgba(73, 42, 82, 0.963);
+width: 75%;
+height: 245px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  
+}
+
+.bottom>h2{
+font-family: 'main-sec-font';
+letter-spacing: 3px;
+color: #fff;
+padding-top: 89px;
+}
+
+ 
+.divider{
+    position: relative;
+    width: 60%;
+    height: 2px;
+    background: #b4a7a7;
+    margin: 15px 0px 20px 0px;
+}
+
+.left-dot,
+.right-dot{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #d8b27a;
+    transform: rotate(45deg);
+}
+
+.center-dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #d8b27a;
+    transform: rotate(45deg);
+
+}
+
+
+.left-dot{
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.center-dot{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+
+.right-dot{
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+.bottom-text{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+color: white;}
+  
+
+.bottom-text-left{
+  width: 46%;
+  font-size: 11px;
+  line-height: 15px;
+}
+.bottom-text-right{
+  width: 46%;
+  font-size: 11px;
+  line-height: 15px;
+}
